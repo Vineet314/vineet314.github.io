@@ -1,97 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vineet Telang</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #0f0f0f;
-            color: #ffffff;
-            line-height: 1.6;
-        }
-        header {
-            background: #1e1e1e;
-            padding: 40px 20px;
-            text-align: center;
-            border-bottom: 1px solid #333;
-        }
-        h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        p.subtitle {
-            margin-top: 10px;
-            font-size: 1.1rem;
-            color: #cccccc;
-        }
-        main {
-            padding: 40px 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        a {
-            color: #4fa3ff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .section {
-            margin-bottom: 40px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            border-top: 1px solid #333;
-            color: #777;
-            font-size: 0.9rem;
-        }
-    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Vineet Telang — Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+    <header class="site-header">
+        <div class="container header-row">
+            <a class="brand" href="#">Vineet Telang</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <nav class="nav" aria-label="Primary">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="resume.html">My Profile</a>
+            </nav>
+        </div>
+    </header>
 
-<header>
-    <h1>Vineet Telang</h1>
-    <p class="subtitle">Data Scientist • Deep Learning • Python Developer</p>
-</header>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h1 class="reveal">Hi — I'm Vineet.</h1>
+                    <p class="lead reveal">Data Scientist • Deep Learning Enthusiast • Python Developer</p>
+                    <p class="reveal"><a class="cta ghost" href="#contact">Contact</a></p>
 
-<main>
-    <div class="section">
-        <h2>About Me</h2>
-        <p>
-            Hi! I'm Vineet — an AI/ML enthusiast with experience in deep learning, transformers, data science,
-            and building end-to-end ML applications. I enjoy learning, experimenting, and creating meaningful projects.
-        </p>
-    </div>
-<!-- 
-    <div class="section">
-        <h2>Projects</h2>
-        <ul>
-            <li>🔥 Sentiment Analysis with RNN Models</li>
-            <li>🧠 Recommender System (Collaborative + Content-Based)</li>
-            <li>📄 LangChain "Chat with Documents" App</li>
-            <li>📊 Smart Boiler Modeling (Data + Physics-Based)</li>
-        </ul>
-    </div> -->
+                    <div class="social reveal" aria-hidden="false">
+                        <a href="https://github.com/vineet314" target="_blank" rel="noopener" aria-label="GitHub">
+                            <!-- GitHub SVG -->
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 .5C5.73.5.9 5.33.9 11.6c0 4.76 3.09 8.8 7.38 10.23.54.1.74-.24.74-.53 0-.26-.01-.96-.02-1.88-3 .65-3.63-1.45-3.63-1.45-.49-1.24-1.2-1.57-1.2-1.57-.98-.67.07-.66.07-.66 1.08.08 1.65 1.11 1.65 1.11.96 1.65 2.52 1.18 3.13.9.1-.7.38-1.18.69-1.45-2.4-.27-4.93-1.2-4.93-5.33 0-1.18.42-2.15 1.11-2.91-.11-.27-.48-1.36.1-2.84 0 0 .9-.29 2.95 1.11a10.24 10.24 0 012.68-.36c.91 0 1.83.12 2.68.36 2.05-1.4 2.95-1.11 2.95-1.11.58 1.48.21 2.57.11 2.84.69.76 1.11 1.73 1.11 2.91 0 4.14-2.54 5.06-4.96 5.32.39.34.73 1.02.73 2.06 0 1.49-.01 2.69-.01 3.06 0 .29.2.63.75.52C19 20.39 22.1 16.36 22.1 11.6 22.1 5.33 17.27.5 12 .5z" fill="currentColor"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/vineet-telang/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <!-- LinkedIn SVG -->
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.98 3.5a2.5 2.5 0 11.02 0zM3 21h4v-12H3v12zM9 9h3.8v1.65h.05c.53-1 1.82-2.05 3.75-2.05 4 0 4.75 2.63 4.75 6.05V21h-4v-5.3c0-1.27-.02-2.9-1.8-2.9-1.8 0-2.07 1.4-2.07 2.8V21H9V9z" fill="currentColor"/></svg>
+                        </a>
+                    </div>
+                </div>
 
-    <div class="section">
-        <h2>Links</h2>
-        <ul>
-            <li><a href="https://github.com/vineet314">GitHub Profile</a></li>
-            <li><a href="https://www.linkedin.com/in/vineet-telang/">LinkedIn</a></li>
-            <li><a href="mailto:telangvineet@gmail.com">Email Me</a></li>
-        </ul>
-    </div>
-</main>
+                <div class="hero-avatar reveal" aria-hidden="true">
+                    <div class="avatar">
+                        <img src="dp.jpeg" alt="Vineet Telang" class="avatar-img" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<footer>
-    © 2025 Vineet Telang • Built with GitHub Pages
-</footer>
+        <section id="about" class="container section">
+            <h2>About</h2>
+            <p>I like deep learning and training large models. Currently working as a Data Scientist at National Payments Corporation of India (NPCI). I enjoy clean, minimal design and practical code.</p>
+        </section>
 
+        <!-- <section id="education" class="container section">
+            <h2>Education</h2>
+            <div class="education-list">
+                <div class="edu-item">
+                    <h3>College of Engineering, Pune — B.Tech, Mechanical Engineering</h3>
+                    <p class="meta">Nov 2020 — Jun 2024 • CGPA: 7.73/10</p>
+                </div>
+                <div class="edu-item">
+                    <h3>DAV Public School (CBSE), Navi Mumbai — PCM with Computer Science</h3>
+                    <p class="meta">Grade: 94% • Jul 2020</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="container section">
+            <h2>Experience</h2>
+            <div class="experience-list">
+                <div class="exp-item">
+                    <h3>Data Scientist — National Payments Corporation of India (NPCI)</h3>
+                    <p class="meta">Nov 2025 — Present</p>
+                    <ul>
+                        <li>Working on data-driven products and ML solutions for payments infrastructure.</li>
+                        <li>Designing models and pipelines for fraud detection, analytics, and performance monitoring.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-item">
+                    <h3>AI Engineer — Ednius AI (Vancouver, Remote)</h3>
+                    <p class="meta">Mar 2025 — Sep 2025</p>
+                    <ul>
+                        <li>Refined an agentic AI approach to automate examination grading using Microsoft Azure.</li>
+                        <li>Developed end-to-end APIs with Azure Functions to create a grading pipeline for PDFs.</li>
+                        <li>Implemented asynchronous programming to reduce network I/O bottlenecks and improve throughput.</li>
+                        <li>Deployed YOLO-based models for diagram detection (93.6% accuracy) and smart-cropping; integrated a CNN-based false-positive filter (96.5% accuracy).</li>
+                        <li>Used agglomerative clustering and text embeddings to group answers (silhouette score 0.66); visualized embeddings via PCA and t-SNE.</li>
+                        <li>Containerized services with Docker and deployed via CI/CD pipelines.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-item">
+                    <h3>DL Research Associate — COEP Technological University (Pune, Hybrid)</h3>
+                    <p class="meta">Feb 2025 — Present</p>
+                    <ul>
+                        <li>Research on distributed deep learning and high-performance computing to scale LLM training.</li>
+                        <li>Applied techniques such as Flash Attention, MHLA, and GRPO to improve training efficiency.</li>
+                        <li>Developed a custom small-scale LLM and trained it on a local HPC cluster (NVIDIA DGX).</li>
+                    </ul>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="projects" class="container section">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="card reveal">
+                    <h3><a href="https://github.com/Vineet314/LLMs" target="_blank" rel="noopener">LLMs From Sctrach</a></h3>
+                    <p>Train your own LLMs! Custom architecture, Custom dataset.</p>
+                    <p class="meta">PyTorch • NLP</p>
+                </article>
+                <article class="card reveal">
+                    <h3><a href="https://github.com/Vineet314/RAG" target="_blank" rel="noopener">So many RAGs</a></h3>
+                    <p>Different levels of RAG implementations</p>
+                    <p class="meta">LangChain • LLMs • Retrieval</p>
+                </article>
+                <article class="card reveal">
+                    <h3><a href="https://github.com/Vineet314/Distributed-Training" target="_blank" rel="noopener">Distributed Learning</a></h3>
+                    <p>Train LLMs on multi-GPUs systems</p>
+                    <p class="meta">PyTorch • Distributed Systems</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="container section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:telangvineet@gmail.com">Get in touch with me!</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">© 2025 Vineet Telang. Made using GitHub Pages</div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
 </body>
 </html>

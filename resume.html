@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vineet Telang — Resume</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <style>
+    /* Print-friendly resume tweaks */
+    .resume{max-width:900px;margin:28px auto;background:transparent;padding:20px}
+    .resume-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+    .resume-header h1{margin:0;font-size:1.6rem}
+    .contact{color:var(--muted);text-align:right}
+    .section-title{margin-top:18px;margin-bottom:8px}
+    @media print{ .nav, .site-footer, .nav-toggle, .social{display:none} body{background:#fff;color:#000} .container{padding:0} }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="/">Vineet Telang</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container resume">
+      <div class="resume-header">
+        <div>
+          <h1>Vineet Telang</h1>
+          <p class="lead">Data Scientist. <a href="https://learn.microsoft.com/en-us/users/vineettelang-0255/credentials/1b0c3f28a8b980b6">Microsoft Certified</a> AI Engineer.</p>
+        </div>
+        <div class="contact">
+          <div>Email: <a href="mailto:telangvineet@gmail.com">telangvineet@gmail.com</a></div>
+          <div><a href="https://github.com/vineet314" target="_blank" rel="noopener">github.com/vineet314</a></div>
+          <div><a href="https://www.linkedin.com/in/vineet-telang/" target="_blank" rel="noopener">linkedin.com/in/vineet-telang</a></div>
+          <div style="margin-top:8px"><a href="Vineet_Resume.pdf" download>Download PDF</a></div>
+        </div>
+      </div>
+
+      <section class="section">
+        <h2 class="section-title">Summary</h2>
+        <p>AI/ML practitioner with experience in deep learning, distributed training, and ML systems. Skilled in building  and implementation of data-driven products.</p>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="education-list">
+          <div class="edu-item">
+            <h3>College of Engineering, Pune — B.Tech, Mechanical Engineering</h3>
+            <p class="meta">Nov 2020 — Jun 2024 • CGPA: 7.73/10</p>
+          </div>
+          <div class="edu-item">
+            <h3>DAV Public School (CBSE), Navi Mumbai — PCM w/ Computer Science</h3>
+            <p class="meta">Jul 2020 • Grade: 94%</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-list">
+          <div class="exp-item">
+            <h3>Data Scientist — National Payments Corporation of India (NPCI)</h3>
+            <p class="meta">Nov 2025 — Present</p>
+            <p>Working on building, improving and maintaining Fraud Detection models</p>
+          </div>
+
+          <div class="exp-item">
+            <h3>AI Engineer — Ednius AI (Vancouver, Remote)</h3>
+            <p class="meta">Mar 2025 — Sep 2025</p>
+            <ul>
+              <li>Refined an agentic AI approach to automate examination grading using Microsoft Azure.</li>
+              <li>Implemented asynchronous programming to reduce network I/O bottlenecks and improve throughput.</li>
+              <li>Deployed YOLO-based models for diagram detection (93.6% accuracy) and smart-cropping.</li>
+              <li>Used agglomerative clustering and text embeddings to group English sentences (silhouette score 0.66); visualized embeddings with PCA/t-SNE.</li>
+            </ul>
+          </div>
+
+          <div class="exp-item">
+            <h3>Independent Contributor — COEP Technological University (Pune, Hybrid)</h3>
+            <p class="meta">Feb 2025 — Present</p>
+            <ul>
+              <li>Researching on distributed deep learning and high-performance computing to scale LLM training.</li>
+              <li>Applied Flash Attention, MHLA, and GRPO to improve training efficiency.</li>
+              <li>Developed a custom small-scale LLM and trained it on an NVIDIA DGX cluster.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section">
+        <h2 class="section-title">Projects (selected)</h2>
+        <div class="project-grid">
+          <div class="card">
+            <h3>Sentiment Analysis</h3>
+            <p>RNN & Transformer experiments for robust classification.</p>
+          </div>
+          <div class="card">
+            <h3>LangChain Doc Chat</h3>
+            <p>Prototype for document question-answering using LLMs.</p>
+          </div>
+          <div class="card">
+            <h3>Recommender Systems</h3>
+            <p>Hybrid collaborative and content-based recommender.</p>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="section">
+        <h2 class="section-title">Achievements</h2>
+        <div class="project-grid achievements-grid">
+          <article class="card">
+            <h3><a href="https://x.com/CMOMaharashtra/status/1976320527166820510" target="_blank" rel="noopener">Winner — Bharat AI Quest</a></h3>
+            <p>Nationwide 3-stage competition; selected among the top 6 and awarded the title <em>AI Elite</em>.</p>
+          </article>
+          <article class="card">
+            <h3><a href="https://drive.google.com/file/d/13gSKRggAOx3RZdisVMWuHe8doar4zDkm/view" target="_blank" rel="noopener">Consolation Prize — B.Tech Project</a></h3>
+            <p>Awarded a consolation prize for an exceptional project during the B.Tech degree.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Skills</h2>
+        <p>Python, PyTorch, LangChain, Docker, Azure, CI/CD, NLP, Distributed Training, Data Analysis, Visualization</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 Vineet Telang. Made using GitHub Pages </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
